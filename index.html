@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+        .mouseImg {
+            position: fixed;
+        }
+        .box1 {
+            width: 200px;
+            height: 200px;
+            background-color: red;
+        }
+        .box2 {
+            margin-left: 800px;
+            width: 200px;
+            height: 200px;
+            background-color: blueviolet;
+        }
+    </style>
+</head>
+<body background = "img/bg.png" style="height: 2800px; cursor: none">
+    <!-- 練習抓取screen、page、client 數值 -->
+    <div style="position: fixed">
+        <div style="text-align: center">
+        <span>screenX:<em class="screenX"></em></span>
+        <span>screenY:<em class="screenY"></em></span>
+        </div>
+        <div style="text-align: center">
+            <span>pageX:<em class="pageX"></em></span>
+            <span>pageY:<em class="pageY"></em></span>
+        </div>
+        <div style="text-align: center">
+            <span>clientX:<em class="clientX"></em></span>
+            <span>clientY:<em class="clientY"></em></span>
+        </div>
+        <!-- 放圖片 -->
+         <div>
+             <img src="img/ming.png" class="mouseImg">
+         </div>
+         <!-- 怪物 -->
+         <div class="box1"></div>
+         <div class="box2"></div>
+    </div>
+
+    <script src="js/all.js"></script>
+</body>
+</html>
